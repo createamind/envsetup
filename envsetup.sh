@@ -12,7 +12,7 @@ sudo apt install ssh git htop vim tmux curl subversion zsh -y
 
 #install python 37
 echo "--------------install python 37"
-sudo apt install software-properties-common
+sudo apt install software-properties-common     -y
 sudo add-apt-repository ppa:deadsnakes/ppa
 sudo apt update
 sudo apt install python3.7 -y
@@ -20,8 +20,8 @@ sudo apt install python3.7 -y
 
 #python venv
 echo "-------------------install virtualenv"
-sudo apt install python-pip
-sudo /usr/bin/easy_install virtualenv
+sudo apt install python-pip  -y
+#sudo /usr/bin/easy_install virtualenv
 #pip install virtualenv
 #virtualenv -p python3.7 py37venv
 
@@ -42,7 +42,8 @@ cat   ~/.pip/pip.conf
 
 
 pip install virtualenv
-virtualenv -p python3.7 py37venv
+sudo /usr/bin/easy_install virtualenv
+virtualenv -p python3.7 ~/py37venv
 
 
 #zsh
