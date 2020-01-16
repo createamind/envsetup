@@ -15,7 +15,7 @@ echo "--------------install python 37"
 sudo apt install software-properties-common     -y
 sudo add-apt-repository ppa:deadsnakes/ppa
 sudo apt update
-sudo apt install python3.7 -y
+sudo apt install python3.7 python3.7-dev -y
 
 
 #python venv
