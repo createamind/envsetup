@@ -6,4 +6,5 @@ after install ubuntu
 apt source use aliyun
 
 
+sudo bash envsetup.sh
 
