@@ -1,15 +1,17 @@
 #
 #
 
-
 #https://askubuntu.com/questions/425754/how-do-i-run-a-sudo-command-inside-a-script/425990
 
+#https://github.com/createamind/Planet/issues/3
+#https://linuxize.com/post/how-to-create-a-sudo-user-on-ubuntu/
+#https://www.runoob.com/w3cnote/set-ssh-login-key.html
 
 
 sudo apt update
-sudo apt install -y ssh git htop vim tmux curl subversion zsh  libopenmpi-dev libxrender1     libtbb2
 
-sudo apt-get install -y python-numpy  cmake zlib1g-dev libjpeg-dev xvfb  python-pip  python3-venv make golang wget unzip git fceux virtualenv      tmux
+
+sudo apt-get install -y python-numpy  cmake zlib1g-dev libjpeg-dev xvfb  python-pip  python3-venv make golang wget unzip git fceux virtualenv      tmux      ssh git htop vim tmux curl subversion zsh  libopenmpi-dev libxrender1  lrzsz   libtbb2
 
 
 
@@ -44,6 +46,10 @@ cat   ~/.pip/pip.conf
 #pip install virtualenv
 #sudo /usr/bin/easy_install virtualenv
 virtualenv -p python3.7 ~/py37venv
+source ~/py37venv/bin/activate
+pip install -r ./requirement/req.txt
+
+
 
 
 #zsh
@@ -57,5 +63,7 @@ bash ./inzsh.sh
 
 
 #svn checkout
-#git clone code
+#git clone code         ; pip install -e .
 #export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/
+
+##tmux cache buffer size  https://stackoverflow.com/questions/18760281/how-to-increase-scrollback-buffer-size-in-tmux
