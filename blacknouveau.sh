@@ -8,6 +8,10 @@ wget https://developer.nvidia.com/compute/cuda/10.0/Prod/local_installers/cuda_1
 
 
 
+
+！！！！online install better;
+
+
 #sudo nano /etc/modprobe.d/blacklist-nouveau.conf
 
 sudo echo 'blacklist nouveau' >> /etc/modprobe.d/blacklist-nouveau.conf
@@ -27,3 +31,8 @@ sudo apt-get install build-essential
 
 sudo  apt-get install linux-image-$(uname -r)    linux-headers-$(uname -r)
 sudo apt install dkms          ## https://blog.csdn.net/baobei0112/article/details/81488478
+
+
+
+###install cudnn
+
