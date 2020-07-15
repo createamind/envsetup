@@ -7,7 +7,8 @@
 
 
 sudo adduser jz ; sudo  usermod -aG sudo jz
-#https://www.runoob.com/w3cnote/set-ssh-login-key.html
+#https://www.runoob.com/w3cnote/set-ssh-login-key.html  ssh-keygen
+chmod 600 authorized_keys
 #####https://stackoverflow.com/questions/14547631/python-locale-error-unsupported-locale-setting/36257050
 
 
@@ -52,7 +53,7 @@ bash ./inzsh.sh
 echo "source ~/py36venv/bin/activate" >> ~/.zshrc
 echo "export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/jz/github/rl_game/game" >> ~/.zshrc
 echo "cd /home/jz/github/game_sample/stable_baselines/game" >> ~/.zshrc
-
+echo "export CUDA_VISIBLE_DEVICES=1 " >> ~/.zshrc
 cat  ~/.zshrc
 
 
@@ -60,5 +61,3 @@ cat  ~/.zshrc
 ## /usr/bin/taskset  ‐c '15-30'  python run..... ;
 ##sudo cpupower -c all frequency-set -g performance    ; cat /proc/cpuinfo |grep MHz|uniq
 
-ssh-keygen
-chmod 600 authorized_keys
