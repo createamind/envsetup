@@ -6,9 +6,9 @@
 
 
 
-sudo adduser jz ; sudo  usermod -aG sudo jz
+sudo adduser jz ; sudo  usermod -aG sudo jz    ;su jz ;
 #https://www.runoob.com/w3cnote/set-ssh-login-key.html  ssh-keygen
-chmod 600 authorized_keys
+ssh-keygen ;cd /home/jz/.ssh;  echo > authorized_keys;  chmod 600 authorized_keys     ;vim authorized_keys;
 #####https://stackoverflow.com/questions/14547631/python-locale-error-unsupported-locale-setting/36257050
 
 
