@@ -4,6 +4,9 @@
 #wget cuda     10  1604
 
 ##cuda version for tensorflow!!
+
+#https://developer.nvidia.com/zh-cn/accelerated-computing-toolkit
+
 wget https://developer.nvidia.com/compute/cuda/10.0/Prod/local_installers/cuda_10.0.130_410.48_linux
 
 
