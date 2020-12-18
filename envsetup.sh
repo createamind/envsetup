@@ -5,7 +5,7 @@
 #https://github.com/createamind/Planet/issues/3
 #https://linuxize.com/post/how-to-create-a-sudo-user-on-ubuntu/
 
-#conda:https://zhuanlan.zhihu.com/p/183981491
+#conda:https://zhuanlan.zhihu.com/p/183981491;;  Miniconda3;;pip install jupyter pandas xgboost hyperopt sklearn matplotlib tensorflow-gpu==2.3 pyarrow
 
 sudo adduser jz ; sudo  usermod -aG sudo jz    ;su jz ;
 #https://www.runoob.com/w3cnote/set-ssh-login-key.html  ssh-keygen
