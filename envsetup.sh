@@ -1,10 +1,11 @@
 
 #https://askubuntu.com/questions/425754/how-do-i-run-a-sudo-command-inside-a-script/425990
 ##tmux cache buffer size  https://stackoverflow.com/questions/18760281/how-to-increase-scrollback-buffer-size-in-tmux
+
 #https://github.com/createamind/Planet/issues/3
 #https://linuxize.com/post/how-to-create-a-sudo-user-on-ubuntu/
 
-
+#conda:https://zhuanlan.zhihu.com/p/183981491
 
 sudo adduser jz ; sudo  usermod -aG sudo jz    ;su jz ;
 #https://www.runoob.com/w3cnote/set-ssh-login-key.html  ssh-keygen
