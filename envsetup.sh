@@ -62,3 +62,6 @@ cat  ~/.zshrc
 ## /usr/bin/taskset  ‐c '15-30'  python run..... ;
 ##sudo cpupower -c all frequency-set -g performance    ; cat /proc/cpuinfo |grep MHz|uniq
 
+alias gd='git --no-pager diff '
+
+
