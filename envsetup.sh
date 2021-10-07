@@ -8,6 +8,7 @@
 #conda:https://zhuanlan.zhihu.com/p/183981491;; 
 ##Miniconda3;;pip install jupyter pandas xgboost hyperopt sklearn matplotlib tensorflow-gpu==2.3 pyarrow
 ##conda create -n py3.7 python=3.7;; conda activate py3.7
+wget -c  https://repo.anaconda.com/archive/Anaconda3-2021.05-Linux-x86_64.sh
 
 
 sudo adduser jz ; sudo  usermod -aG sudo jz    ;su jz ;
