@@ -22,6 +22,11 @@ sudo apt update
 
 sudo apt-get install -y python-numpy  cmake zlib1g-dev libjpeg-dev xvfb  python-pip  python3-venv make golang wget unzip git fceux virtualenv   cpufrequtils   tmux      ssh git htop vim tmux curl subversion zsh  libopenmpi-dev libxrender1  lrzsz   libtbb2    python3.6-dev        linux-tools-$(uname -r)      net-tools
 
+sudo apt-get install -y p tmux   wget unzip git   ssh git htop vim tmux curl subversion zsh net-tools
+
+
+
+
 #change pip source
 echo "---------------------------------------------------------------------------------------------------make pip source"
 mkdir ~/.pip/
